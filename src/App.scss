@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+/*
+=> Variables
+*/
+$bg-dark-cyan: hsl(185, 75%, 39%);
+$text-dark-blue: hsl(229, 23%, 23%);
+$text-gray: hsl(227, 10%, 46%);
+$border-light-gray: hsl(0, 0%, 59%);
+$ff-kumbh-sans: "Kumbh Sans", sans-serif;
+$fz-18: 18px;
+
+.App {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: $bg-dark-cyan;
+}
