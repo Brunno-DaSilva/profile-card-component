@@ -5,7 +5,15 @@ $text-gray: hsl(227, 10%, 46%);
 $border-light-gray: hsl(0, 0%, 59%);
 $ff-kumbh-sans: "Kumbh Sans", sans-serif;
 $fz-18: 18px;
-
+h4 {
+  color: $text-dark-blue;
+  font-size: $fz-18;
+  font-weight: 700;
+  span {
+    color: $text-gray;
+    font-weight: 400;
+  }
+}
 .CardMain {
   width: 21.875rem;
   min-height: 21.875rem;
@@ -51,20 +59,32 @@ $fz-18: 18px;
       justify-content: center;
       margin-top: 1.8rem;
 
-      h4 {
-        color: $text-dark-blue;
-        font-size: $fz-18;
-        font-weight: 700;
-        span {
-          color: $text-gray;
-          font-weight: 400;
-        }
-      }
       p {
         margin-top: 0.5rem;
         color: $text-gray;
         font-weight: 400;
       }
+    }
+  }
+  .CardMain__bottom-sm_info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+
+    .sm_info__container {
+      margin: 1.5rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    span {
+      color: $text-gray;
+      font-weight: 400;
+      letter-spacing: 1px;
+      font-size: 0.6rem;
     }
   }
 }

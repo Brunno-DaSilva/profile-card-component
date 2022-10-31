@@ -48,7 +48,32 @@ const CardMain: React.FC<CardDataProps> = ({
           </div>
         </div>
         <div className="divider" />
-        <div className="CardMain__bottom-sm_info"></div>
+        <div className="CardMain__bottom-sm_info">
+          <div className="sm_info__container">
+            <div className="sm_info__container-number">
+              <h4>{followers}</h4>
+            </div>
+            <div className="sm_info__container-title">
+              <span>Followers</span>
+            </div>
+          </div>
+          <div className="sm_info__container">
+            <div className="sm_info__container-number">
+              <h4>{likes}</h4>
+            </div>
+            <div className="sm_info__container-title">
+              <span>Likes</span>
+            </div>
+          </div>
+          <div className="sm_info__container">
+            <div className="sm_info__container-number">
+              <h4>{uploadedPhotos}</h4>
+            </div>
+            <div className="sm_info__container-title">
+              <span>Photos</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
