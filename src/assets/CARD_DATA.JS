@@ -6,8 +6,8 @@ const CARD_DATA = [
     age: "26",
     city: "London",
     followers: 80000,
-    Likes: 803000,
-    photos: 803000,
+    likes: 803000,
+    uploadedPhotos: 803000,
   },
 ];
 
