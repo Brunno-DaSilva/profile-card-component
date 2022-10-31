@@ -40,7 +40,14 @@ const CardMain: React.FC<CardDataProps> = ({
               alt={name}
             />
           </div>
+          <div className="bottom-profile__info">
+            <h4>
+              {name} <span>{age}</span>
+            </h4>
+            <p>{city}</p>
+          </div>
         </div>
+        <div className="divider" />
         <div className="CardMain__bottom-sm_info"></div>
       </div>
     </div>
